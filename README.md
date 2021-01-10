@@ -1,5 +1,5 @@
 # Module System of Rust 2018
-Try to cover all possibilities of module dependencies in Rust 2018 to help people like me who is confusing about Rust's module system. Hopefully all dependency directions are covered, currently including looking at belows, if you think something missing, please let me know:
+Try to cover all possibilities of module dependencies in Rust 2018 to help people like me who is confusing about Rust's module system. Hopefully all dependency directions are covered, currently including looking at the followings, if you think something missing, please let me know:
 
 - Parents (even looking at modules sitting at the root level)
 - Siblings (even at root level)

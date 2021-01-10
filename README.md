@@ -10,6 +10,7 @@ Try to cover all possibilities of module dependencies in Rust 2018 to help peopl
 
 Cargo run outputs:
 
+```rust
 Caller = main::main(), Callee = d1/m1::prn()
 Caller = d1/m1::prn(), Callee = d1/d11/m11::prn()
 Caller = d1/d11/m11::prn(), Callee = d1/m1::prn2()
@@ -34,3 +35,5 @@ Caller = d1/d11/m11::prn(), Callee = d1/m1::prn2()
 Caller = d1/d11/m11::prn(), Callee = util::prn()
 Caller = config::prn(), Callee = d2/d22/m22::prn()
 Caller = config::prn(), Callee = util::prn()
+```
+
